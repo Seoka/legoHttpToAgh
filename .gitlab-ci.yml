@@ -1,0 +1,8 @@
+# CI File
+
+include:
+  - project: 'general/ci-templates'
+    file: 'workflow.gitlab-ci.yml'
+  - project: 'general/ci-templates'
+    file: 'docker-img.gitlab-ci.yml'
+
