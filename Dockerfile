@@ -8,7 +8,7 @@ RUN CGO_ENABLED=0 GOOS=linux go build -a -o legoHttpToAgh .
 
 
 # generate clean, final image for end users
-FROM alpine:3.17
+FROM scratch
 
 ENV ADGUARD_URL http://adguard/
 ENV ADGUARD_USER change
